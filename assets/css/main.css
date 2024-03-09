@@ -2692,3 +2692,40 @@ section {
 	text-align: justify;
 	text-justify: inter-word;
 }
+
+.accordion {
+	background-color: #eee;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bi-chevron-down {
+	margin-left: auto;
+}
+
+.active .bi-chevron-down {
+	display: none;
+}
+
+.active,
+.accordion:hover {
+	background-color: #ccc;
+}
+
+.panel {
+	padding: 0 18px;
+	display: none;
+	background-color: white;
+	overflow: hidden;
+}
