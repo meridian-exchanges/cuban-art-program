@@ -1,5 +1,5 @@
 /* Carousel container */
-.gallary-carousel {
+.gallery-carousel {
 	display: flex;
 	overflow: hidden;
 	width: 100%;
@@ -9,7 +9,7 @@
 }
 
 /* Individual slide */
-.gallary-slide {
+.gallery-slide {
 	min-width: 100%;
 	/* Full width */
 	overflow: hidden;
@@ -17,7 +17,7 @@
 }
 
 /* Slide images */
-.gallary-slide img {
+.gallery-slide img {
 	max-width: 100%;
 	/* Adjust image width */
 	height: 100%;
@@ -28,8 +28,8 @@
 }
 
 /* Navigation buttons */
-.gallary-prev,
-.gallary-next {
+.gallery-prev,
+.gallery-next {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -42,10 +42,10 @@
 	border-radius: 50px;
 }
 
-.gallary-prev {
+.gallery-prev {
 	left: 0;
 }
 
-.gallary-next {
+.gallery-next {
 	right: 0;
 }
