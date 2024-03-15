@@ -20,7 +20,7 @@
 /* Colors */
 :root {
 	--color-default: #364d59;
-	--color-primary: #feb900;
+	--color-primary: #729cbd;
 	--color-secondary: #52565e;
 }
 
@@ -44,7 +44,7 @@ a {
 }
 
 a:hover {
-	color: #ffc732;
+	color: #445d71;
 	text-decoration: none;
 }
 
